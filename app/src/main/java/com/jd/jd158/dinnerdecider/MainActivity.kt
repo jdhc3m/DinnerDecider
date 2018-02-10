@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val foodList = arrayListOf("Pizza", "Nazigoren", "Baksddu", "Macarrao")
+        val foodList = arrayListOf("Pizza", "Nazigoren", "Baksddu", "Macarrao", "ovo")
         var nullable : String? = "Nullable test"
 
         var l = if (nullable != null) nullable.length else -1
